@@ -1,0 +1,120 @@
+﻿body {
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+#logo {
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #00bdb3;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#header-text {
+    font-size: 25px;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+}
+
+    .navbar-toggle .icon-bar {
+        width: 15px;
+    }
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+.wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #00bdb3;
+    background-color: white;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.fab {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #00bdb3;
+    vertical-align: middle;
+}
+
+.modal-dialog {
+    height: 100%;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-content {
+    margin-top: 100px;
+    height: 330px;
+}
+
+.modal-wrapper {
+    text-align: center;
+    margin: auto;
+}
+
+#Login1 {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#FailureText {
+    color: red;
+}
+
+@media (max-width: 425px) {
+    .footer-left {
+        float: unset;
+        text-align: center;
+    }
+
+    .footer-right {
+        float: unset;
+        text-align: center;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-dialog {
+        margin: 0;
+    }
+}

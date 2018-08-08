@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.Gridheader {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+    text-align: center;
+}
